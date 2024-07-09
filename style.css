@@ -765,6 +765,7 @@ CSS for Career Comfort Job Seeker and Business Tie up sections
 .custom-section .elementor-container {
   display: flex;
   justify-content: space-between;
+
   justify-content: center;
   /* border: 1px solid red; */
   width: 100%;
@@ -1134,16 +1135,13 @@ CSS for Career Comfort Job Seeker and Business Tie up sections
   }
 }
 
-
-
-
 /* bussiness css */
 
-.c_bussiness{
+.c_bussiness {
   background: linear-gradient(135deg, #8797ea, #5d0b80);
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-color:white
+  color: white;
 }
 
 .rs-heading {
@@ -1180,12 +1178,6 @@ color:white
   color: rgba(255, 255, 255, 0.1);
   z-index: -1;
 }
-
-
-
-
-
-
 
 .rs-contact-box {
   display: flex;
@@ -1229,4 +1221,12 @@ color:white
 
 .des a:hover {
   color: #ffdd57;
+}
+
+@media (max-width: 425px) {
+  .c_res {
+    /* display: flex ; */
+    flex-direction: column !important; 
+  }
+
 }
